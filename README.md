@@ -11,7 +11,7 @@
 - Member 3: Adithia K Sathian - CEA
 
 ### Hosted Project Link
-[mention your project hosted project link here]
+https://career-graph.vercel.app/
 
 ### Project Description
 This project is mainly for students who are aspiring to be someone and for students who do not have any idea about their future. 
