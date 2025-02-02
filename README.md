@@ -31,9 +31,7 @@ For Software:
 - [Tools used]
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- none
 
 ### Implementation
 For Software:
@@ -84,9 +82,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- anna raghavan sr: coding skills
+- aditi ms: project designing
+- adithia k sathian: idea contribution
 
 ---
 Made with ❤️ at TinkerHub
