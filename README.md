@@ -2,32 +2,32 @@
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: Emerald
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: Anna Raghavan - CEA
+- Member 2: Aditi MS - CEA
+- Member 3: Adithia K Sathian - CEA
 
 ### Hosted Project Link
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+This project is mainly for students who are aspiring to be someone and for students who do not have any idea about their future. 
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+To tackle the confusion of students who have no idea about their future
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+career at your fingertip using our project
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
+- html
+- css
+- javascript
 - [Tools used]
 
 For Hardware:
