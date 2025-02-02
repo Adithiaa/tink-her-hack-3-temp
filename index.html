@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Guidance</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #0073e6;
+            color: white;
+            padding: 15px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            background: url('https://www.shutterstock.com/image-vector/abstract-mountain-path-top-way-600nw-2340462265.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 200px 20px;
+        }
+        .hero button {
+            background: #ff9800;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            color: white;
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: rgba(255, 255, 255, 0.334);
+            padding: 50px 20px;
+        }
+        .feature-box {
+            color: white;
+            background: rgb(53, 148, 203);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+        }
+        .feature-box img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .containerBtn{
+            margin-top: 40px;
+        }
+        #chatBtn{
+            margin-right:20px ;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Career Guidance for Teenagers</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h2>Find Your Perfect Career Path</h2>
+        <p>Discover courses, colleges, and career guidance tailored for you.</p>
+        <button onclick="location.href='login.html'">Get Started</button>
+        <div class="containerBtn">
+            <button class="btn" id="chatBtn">ChatBot</button>
+            <button class="btn" id="liveBtn">Live calls</button>
+        </div>
+    </section>
+    <section id="features" class="features">
+        <div class="feature-box">
+            <img src="career-path.jpg" alt="Career Path">
+            <h3>Career Roadmaps</h3>
+            <p>Step-by-step guides for various career options.</p>
+
+        </div>
+        <div class="feature-box">
+            <img src="mentor-support.jpg" alt="Mentor">
+            <h3>Mentor Support</h3>
+            <p>Connect with experts for career advice.</p>
+        </div>
+        <div class="feature-box">
+            <img src="college-list.jpg" alt="Colleges">
+            <h3>Top Colleges</h3>
+            <p>Find the best colleges for your chosen course.</p>
+        </div>
+        <div class="feature-box">
+            <img src="resource-list.jpg" alt="Resources">
+            <h3>Apt Resources</h3>
+            <p>Get the suitable resources for your chosen course.</p>
+        </div>
+    </div>
+        
+
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Career Guidance | All rights reserved</p>    </footer>
+</body>
+</html>

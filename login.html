@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h2 id="form-title">Login</h2>
+           
+                <input type="text" id="name-field" placeholder="Full Name" class="input-field hidden">
+                <input type="email" placeholder="Email" class="input-field" >
+                <input type="password" placeholder="Password" class="input-field" >
+                <a href="choice.html"><button type="" class="btn">Login</button></a>
+          
+            <p id="toggle-form" >Don't have an account? <a href="#">Sign up</a></p>
+        </div>
+    </div>
+    
+    <script>
+        const toggleForm = document.getElementById('toggle-form');
+        const formTitle = document.getElementById('form-title');
+        const authForm = document.getElementById('auth-form');
+        const nameField = document.getElementById('name-field');
+        const submitButton = authForm.querySelector('.btn');
+
+        toggleForm.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (formTitle.innerText === 'Login') {
+                formTitle.innerText = 'Sign Up';
+                nameField.classList.remove('hidden');
+                submitButton.innerText = 'Sign Up';
+                toggleForm.innerHTML = 'Already have an account? <a href="#">Login</a>';
+            } else {
+                formTitle.innerText = 'Login';
+                nameField.classList.add('hidden');
+                submitButton.innerText = 'Login';
+                toggleForm.innerHTML = "Don't have an account? <a href='#'>Sign up</a>";
+            }
+        });
+
+
+
+    
+    </script>
+</body>
+</html>

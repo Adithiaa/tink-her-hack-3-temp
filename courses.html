@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Your Desired Course</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 500px;
+            background: white;
+            padding: 20px;
+            margin: 50px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        .course-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            background-color: #0073e6;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .course-btn:hover {
+            background-color: #005bb5;
+        }
+
+        .input-box {
+            width: 95%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .submit-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        .submit-btn:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Select Your Desired Course</h2>
+
+        <!-- Course Selection Buttons -->
+        <button class="course-btn" onclick="selectCourse('Engineering')">Engineering</button>
+        <button class="course-btn" onclick="selectCourse('Medicine')">Medicine</button>
+        <button class="course-btn" onclick="selectCourse('Aviation')">Aviation</button>
+        <button class="course-btn" onclick="selectCourse('LLB')">LLB</button>
+        <button class="course-btn" onclick="selectCourse('BCA')">BCA</button>
+        <button class="course-btn" onclick="selectCourse('BBA')">BBA</button>
+        <button class="course-btn" onclick="selectCourse('CA')">CA</button>
+        <button class="course-btn" onclick="selectCourse('Arts')">Arts</button>
+
+        <!-- Custom Course Input -->
+        <input type="text" id="customCourse" class="input-box" placeholder="Write your own course">
+        <button class="submit-btn" onclick="submitCourse()">Submit</button>
+    </div>
+
+    <script>
+        function selectCourse(course) {
+            alert("You have selected: " + course);
+            // Redirect to a page related to the selected course (optional)
+             window.location.href = "colleges.html";
+        }
+
+        function submitCourse() {
+            let customCourse = document.getElementById("customCourse").value;
+            if (customCourse.trim() === "") {
+                alert("Please enter a course name.");
+            } else {
+                alert("You have entered: " + customCourse);
+                window.location.href = "colleges.html";
+
+            }
+        }
+    </script>
+
+</body>
+</html>

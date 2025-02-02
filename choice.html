@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Question</title>
+    <style>
+        /* Overlay Background */
+        .popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        /* Popup Box */
+        .popup-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Buttons */
+        .popup-box button {
+            margin: 10px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .yes-btn {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .no-btn {
+            background-color: #dc3545;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Popup Container -->
+    <div class="popup-overlay" id="popup">
+        <div class="popup-box">
+            <h3>Do you have an idea about any course?</h3>
+            <button class="yes-btn" onclick="answerYes()">Yes</button>
+            <button class="no-btn" onclick="answerNo()">No</button>
+        </div>
+    </div>
+
+    <script>
+        // Show popup on page load
+        window.onload = function() {
+            document.getElementById("popup").style.visibility = "visible";
+            document.getElementById("popup").style.opacity = "1";
+        };
+
+        // If Yes is clicked
+        function answerYes() {
+            document.getElementById("popup").style.visibility = "hidden";
+            document.getElementById("popup").style.opacity = "0";
+            window.location.href = "courses.html"; 
+        }
+
+        // If No is clicked
+        function answerNo() {
+            alert("No worries! We will suggest the best courses based on your interests.");
+            document.getElementById("popup").style.visibility = "hidden";
+            document.getElementById("popup").style.opacity = "0";
+            window.location.href = "queries.html"; 
+        }
+    </script>
+
+</body>
+</html>

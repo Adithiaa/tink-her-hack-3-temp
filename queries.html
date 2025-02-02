@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Guidance</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #0073e6;
+            color: white;
+            padding: 15px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            background: url('education-banner.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 100px 20px;
+        }
+        .hero button {
+            background: #ff9800;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            color: white;
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 50px 20px;
+        }
+        .feature-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+        }
+        .feature-box img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .questionnaire {
+            background: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            max-width: 600px;
+            margin: auto;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Career Guidance for Teenagers</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    
+    <section class="questionnaire">
+        <h2>Career Questionnaire</h2>
+       
+            <p>What is your favorite subject?</p>
+            <input type="radio" id="math" name="subject" value="Math">
+            <label for="math">Math</label><br>
+            <input type="radio" id="science" name="subject" value="Science">
+            <label for="science">Science</label><br>
+            <input type="radio" id="history" name="subject" value="History">
+            <label for="history">History</label><br>
+            
+            <p>Which subjects do you enjoy?</p>
+            <input type="checkbox" name="interest" value="Physics"> Physics<br>
+            <input type="checkbox" name="interest" value="Biology"> Biology<br>
+            <input type="checkbox" name="interest" value="Computer Science"> Computer Science<br>
+            
+            <p>Preferred work environment?</p>
+            <input type="radio" name="work_env" value="Office"> Office<br>
+            <input type="radio" name="work_env" value="Remote"> Remote<br>
+            <input type="radio" name="work_env" value="Field"> Field Work<br>
+            
+            <p>What are your hobbies?</p>
+            <input type="text" name="hobbies" placeholder="Enter your hobbies"><br>
+            
+            <p>Which career are you interested in?</p>
+            <select name="career">
+                <option value="engineering">Engineering</option>
+                <option value="medicine">Medicine</option>
+                <option value="arts">Arts</option>
+                <option value="business">Business</option>
+            </select>
+            
+            <p>Describe your dream career:</p>
+            <textarea name="career-goals" rows="4" cols="30" placeholder="Type here..."></textarea><br>
+            
+            <a href="colleges.html"><button type="">Submit</button></a>
+        
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Career Guidance | All rights reserved</p>
+    </footer>
+</body>
+</html>
