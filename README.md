@@ -25,7 +25,7 @@ For Software:
 - css
 - javascript
 
-# Screenshots (Add at least 3)
+# Screenshots
 https://drive.google.com/drive/folders/1kN4rWT8vCOHHVT4kkxAK7hwDRFVhc4Ff?usp=drive_link
 
 ## Team Contributions
