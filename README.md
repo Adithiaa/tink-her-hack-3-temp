@@ -1,9 +1,6 @@
 # Career Graph 🎯
 
-
-## Basic Details
 ### Team Name: Emerald
-
 
 ### Team Members
 - Member 1: Anna Raghavan - CEA
@@ -27,20 +24,6 @@ For Software:
 - html
 - css
 - javascript
-- 
-For Hardware:
-- none
-
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
-For Software:
 
 # Screenshots (Add at least 3)
 https://drive.google.com/drive/folders/1kN4rWT8vCOHHVT4kkxAK7hwDRFVhc4Ff?usp=drive_link
