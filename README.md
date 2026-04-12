@@ -31,4 +31,4 @@ https://drive.google.com/drive/folders/1kN4rWT8vCOHHVT4kkxAK7hwDRFVhc4Ff?usp=dri
 ## Team Contributions
 - anna raghavan sr: coding skills
 - aditi ms: project designing
-- adithia k sathian: Project coordinator
+- adithia k sathian: Coding skills/Project coordinator
